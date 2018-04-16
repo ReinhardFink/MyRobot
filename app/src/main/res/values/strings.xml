@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyRobot</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings for Room -->
+    <string name="pref_Room">Preferences for Rooms</string>
+    <string name="pref_title_charsForRoom">Characters representing Rooms</string>
+    <string name="pref_summary_charsForRoom">1: empty Field; 2: Wall; 3 …: Obstacles</string>
+    <string name="pref_default_charsForRoom">.#</string>
+
+    <!-- Strings for Robot -->
+    <string name="pref_Robot">Preferences for Robots</string>
+    <string name="pref_title_charsForRobot">Characters representing Robots</string>
+    <string name="pref_summary_charsForRobot">1: right; 2: up; 3: left; 4: down</string>
+    <string name="pref_default_charsForRobot">&gt;^&lt;v</string>
+
+    <!-- Strings for GUI Labels -->
+    <string name="actButtonLabel">act</string>
+    <string name="initButtonLabel">Init</string>
+    <string name="runButtonLabel">run</string>
+    <string name="stopButtonLabel">stop</string>
+</resources>

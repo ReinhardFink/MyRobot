@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_Room"
+        android:key="pref_key_Room">
+        <EditTextPreference
+            android:key="pref_key_charsForRoom"
+            android:title="@string/pref_title_charsForRoom"
+            android:summary="@string/pref_summary_charsForRoom"
+            android:defaultValue="@string/pref_default_charsForRoom" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_Robot"
+        android:key="pref_key_Robot">
+        <EditTextPreference
+            android:key="pref_key_charsForRobot"
+            android:title="@string/pref_title_charsForRobot"
+            android:summary="@string/pref_summary_charsForRobot"
+            android:defaultValue="@string/pref_default_charsForRobot" />
+    </PreferenceCategory>
+</PreferenceScreen>
+
